@@ -1,0 +1,154 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2D314D;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #33D35E;
+}
+
+header div a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #33D35E;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+header div a:hover {
+    background-color: #2AB6D9;
+}
+#section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    background-color: #f4f4f4;
+    height: 600px;
+}
+
+#section1 #right {
+    max-width: 50%;
+}
+
+#section1 h1 {
+    font-size: 2.5rem;
+    color: #2D314D;
+    margin-bottom: 20px;
+}
+
+#section1 p {
+    font-size: 1.125rem;
+    color: #7D7E83;
+    margin-bottom: 40px;
+}
+
+#section1 button {
+    background-color: #33D35E;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#section1 button:hover {
+    background-color: #2AB6D9;
+}
+
+#section1 #left {
+    max-width: 50%;
+}
+
+#section1 #left img {
+    width: 100%;
+    height: auto;
+}
+#section2 {
+    padding: 60px 40px;
+    background-color: #fff;
+}
+
+#section2 #head {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#section2 #head h1 {
+    font-size: 2rem;
+    color: #2D314D;
+    margin-bottom: 20px;
+}
+
+#section2 #head p {
+    font-size: 1.125rem;
+    color: #7D7E83;
+}
+
+#section2 #row {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#section2 .col {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#section2 .col h3 {
+    font-size: 1.5rem;
+    color: #2D314D;
+    margin-bottom: 10px;
+}
+
+#section2 .col p {
+    font-size: 1rem;
+    color: #7D7E83;
+}
+
+#section2 .col img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+div img{
+    width: 200px;
+    height: auto;
+}
+
+.container .com{
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    text-align: center;
+    padding: 60x 40px;
+}
