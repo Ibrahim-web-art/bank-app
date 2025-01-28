@@ -109,18 +109,25 @@ header div a:hover {
 
 #section2 #row {
     display: inline-flex;
-    justify-content: space-between;
     width: 100%;
+    
 }
+#section2 #row #col1,#col2,#col3,#col4{
+    margin: 10px;
+    padding: 25px;
+    color: #7D7E83;
+} 
 
 #section2 .col {
     flex: 1;
     background-color: #f4f4f4;
     padding: 20px;
-    margin: 10px;
+    margin: 30px;
     border: 1px solid #ddd;
     border-radius: 10px;
     text-align: center;
+    border: 2px solid black ;
+
 }
 
 #section2 .col h3 {
@@ -144,11 +151,39 @@ div img{
     width: 200px;
     height: auto;
 }
+#section3{
+    background-color:  #f4f4f4;
+}
 
-.container .com{
-    display: flex;
-    float: right;
+#section3 .container {
+    display:inline-flex;
+    margin-left: 50px;  
+}
+#section3 h2{
+    font-size: 2rem;
+    color: #2D314D;
+    margin: 30px;
+
+}
+#section3 .container .com{
+   margin: 15px;
+   background-color: white;
+   padding: 10px;
+   width: 200px;
+   margin-left: 50px;
+   border-radius: 10px;
+}
+#section3 .container .com img{
+    height: 150px;
+}
+footer{
+    display: inline-flex;
     justify-content: space-between;
-    text-align: center;
-    padding: 60x 40px;
+    background-color:rgb(2, 2, 22);
+     padding: 20px;
+     width: 100%;
+}
+footer #col{
+    margin-right: 50px;
+    border: none;
 }
