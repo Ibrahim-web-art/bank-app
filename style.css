@@ -153,6 +153,7 @@ div img{
 }
 #section3{
     background-color:  #f4f4f4;
+    padding-top: 30px;
 }
 
 #section3 .container {
@@ -172,6 +173,7 @@ div img{
    width: 200px;
    margin-left: 50px;
    border-radius: 10px;
+   color: #7D7E83;
 }
 #section3 .container .com img{
     height: 150px;
@@ -186,4 +188,22 @@ footer{
 footer #col{
     margin-right: 50px;
     border: none;
+    color: white;
+}
+footer #col a{
+    text-decoration: none;
+    color: white;
+}
+footer #col button{
+    background-color: #33D35E;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+footer #col button:hover {
+    background-color: #2AB6D9;
 }
